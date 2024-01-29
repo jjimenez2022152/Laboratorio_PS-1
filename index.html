@@ -3,9 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../Laboratorio-1-PS/assets/styles/login.css">
+    <title>Login</title>
 </head>
 <body>
-    
+    <div class="container">
+        <form action="/login" method="post">
+            <h2 class="iniciarSecion">Bienvenido a su agenda virtual</h2>
+            <div class="userIcon">
+                <img src="../Laboratorio-1-PS/resources/img/user_icon_150670.png" width="250" height="250" alt="">
+            </div>
+            <h2 class="iniciarSecion">Iniciar sesión</h2>
+            <label for="username">Usuario:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required>
+            <input type="submit" value="Iniciar sesión">
+        </form>
+    </div>    
 </body>
 </html>
