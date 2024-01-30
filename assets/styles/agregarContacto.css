@@ -66,3 +66,30 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #0056b3
 }
+
+.regresar{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fa3131;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.regresar:hover{
+    background-color: rgb(255, 132, 132);
+}
+
+.agendaV{
+    text-align: center;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.imagen{
+    text-align: center;
+}
+

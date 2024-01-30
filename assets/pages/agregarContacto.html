@@ -10,30 +10,37 @@
 
 <body>
     <section class="home2">
-        
+        <div class="imagen">
+            <h1 class="agendaV">Agenda virtual</h1>
+            <img src="../../resources/img/newContact.png" width="75" height="100" alt="">
+        </div>
         <div class="in-flex">
             <div class="agregarContacto">
-                
                 <h1>Agregar Contacto</h1>
                 <br>
+                
                 <br>
-                <form>
+                <form id="contactForm">
                     <label for="nombre">Nombres:</label>
                     <input type="text" id="nombre" name="nombre" required><br><br>
 
                     <label for="apellido">Apellidos:</label>
                     <input type="text" id="apellido" name="apellido" required><br><br>
 
+                    <label for="correo">Correo Electronico:</label>
+                    <input type="text" id="correo" name="correo" required><br><br>
+
                     <label for="telefono">Teléfono:</label>
                     <input type="tel" id="telefono" name="telefono"
                         placeholder="Formato: 7885-7755" required><br><br>
 
                     <input type="submit" value="Agregar Contacto">
-                </form>    
+                </form>
+                <a href="../pages/contactos.html"><button class="regresar">Regresar</button></a>    
             </div>
         </div>
-
     </section>
+    <script src="../../../Laboratorio_PS-1/assets/scripts/agregarContacto.js"></script>
 </body>
 
 </html>
