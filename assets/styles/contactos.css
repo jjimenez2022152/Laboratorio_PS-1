@@ -64,3 +64,19 @@ body{
     text-align: center;
     text-align: justify;
 }
+
+.ag{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4bf036;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.ag:hover{
+    background-color: darkgreen;
+}
