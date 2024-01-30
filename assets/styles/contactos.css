@@ -47,3 +47,20 @@ body{
 .fav:hover {
     background-color: #f3e032;
 }
+
+.toggleButton{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #8f75f8;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.infoContainer{
+    text-align: center;
+    text-align: justify;
+}
