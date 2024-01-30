@@ -7,9 +7,9 @@ loginForm.addEventListener("submit", function(event) {
     var password = document.getElementById("password").value;
 
     
-    if (username === "usuario" && password === "contraseña") {
+    if (username === "jjimenez" && password === "123") {
         
-        window.location.href = "contactos.html";
+        window.location.href = "./assets/pages/contactos.html";
     } else {
         alert("Usuario o contraseña incorrectos.");
     }
