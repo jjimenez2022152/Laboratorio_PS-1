@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+body{
+    background-color: #F0E68C;
+}
+
+.home5{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Favorito{
+    flex: 1;
+    min-width: 250px;
+}
+
+.Favorito:first-child {
+    flex: 2;
+    padding: 25px;
+    background-color: #FFFF00;
+    margin: 20px;
+    margin-bottom: 0px;
+}
+
+.Favorito div {
+    padding: 25px;
+    background-color: white; 
+    margin: 20px;
+}
