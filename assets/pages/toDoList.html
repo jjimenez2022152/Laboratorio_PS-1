@@ -10,12 +10,25 @@
 <body>
     <section class="home">
         <div class="in-flex">
-            <div>
+            <h1>Lista de Pendientes</h1>
 
-            </div>
+            <form id="todo-form">
+                <input type="text" id="todo-input" placeholder="Agregar nuevo pendiente">
+                <select id="priority-select">
+                    <option value="Urgente">Urgente</option>
+                    <option value="No urgente">No urgente</option>
+                    <option value="Puede esperar">Puede esperar</option>
+                </select>
+                <button type="submit">Agregar</button>
+            </form>
+
+            <ul id="todo-list">
+                
+            </ul>
+
         </div>
     </section>
-
+    <script src="../../assets/scripts/toDoList.js"></script>
 </body>
 
 </html>

@@ -10,18 +10,26 @@ body{
 
 .home{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .in-flex{
     flex: 1;
     padding: 25px;
+    min-width: 250px;
+    margin-bottom: 0px;
 }
 
 .in-flex:first-child{
     padding: 25px;
     flex: 2;
+    background-color: white;
+    margin: 20px;
+
 }
 
 .in-flex div {
     padding: 25px;
+    background-color: white;
+    margin: 20px;
 }
