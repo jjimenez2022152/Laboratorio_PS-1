@@ -1,0 +1,27 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: wheat;
+}
+
+.home{
+    display: flex;
+}
+
+.in-flex{
+    flex: 1;
+    padding: 25px;
+}
+
+.in-flex:first-child{
+    padding: 25px;
+    flex: 2;
+}
+
+.in-flex div {
+    padding: 25px;
+}
