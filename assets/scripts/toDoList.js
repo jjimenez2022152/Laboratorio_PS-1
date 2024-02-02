@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
     todos.push({ text: "Pendiente 2", priority: "No urgente" });
     todos.push({ text: "Pendiente 3", priority: "Puede esperar" });
     
-    renderTodos();
+    renderTodos();//a
     
     form.addEventListener("submit", function(event) {
       event.preventDefault();
