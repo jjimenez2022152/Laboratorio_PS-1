@@ -4,22 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../assets/styles/toDoList.css">
     <title>Lista de Pendientes</title>
 </head>
 
 <body>
     <section class="home">
         <div class="in-flex">
-            <h1>Lista de Pendientes</h1>
-
+            <h1 class="titulo">Lista de Pendientes</h1>
+            <br>
+            <br>
             <form id="todo-form">
                 <input type="text" id="todo-input" placeholder="Agregar nuevo pendiente">
+                <br>
                 <select id="priority-select">
+                    <br>
+                    <br>
                     <option value="Urgente">Urgente</option>
                     <option value="No urgente">No urgente</option>
                     <option value="Puede esperar">Puede esperar</option>
                 </select>
-                <button type="submit">Agregar</button>
+                <button type="submit"  class="Agregar">Agregar</button>
             </form>
 
             <ul id="todo-list">
