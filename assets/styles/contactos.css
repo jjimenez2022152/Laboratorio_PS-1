@@ -112,3 +112,17 @@ body{
 .lista:hover{
     background-color: #ffc56e;
 }
+
+.toggleButton {
+    background-color: #f784da;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.toggleButton:hover {
+    background-color: #2980b9;
+}
+
